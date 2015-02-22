@@ -2,10 +2,10 @@
 #define OSMPBF_H
 
 // this describes the low-level blob storage
-#include <osmpbf/fileformat.pb.h> // IWYU pragma: export
+#include <osmpbf/fileformat.pb-c.h> // IWYU pragma: export
 
 // this describes the high-level OSM objects
-#include <osmpbf/osmformat.pb.h> // IWYU pragma: export
+#include <osmpbf/osmformat.pb-c.h> // IWYU pragma: export
 
 #define OSMPBF_VERSION "1.3.3"
 
@@ -19,7 +19,7 @@ namespace OSMPBF {
 
     // resolution for longitude/latitude used for conversion
     // between representation as double and as int
-    const int lonlat_resolution = 1000 * 1000 * 1000; 
+    const int lonlat_resolution = 1000 * 1000 * 1000;
 
 }
 
