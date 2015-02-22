@@ -4,6 +4,7 @@ configure-stamp
 osmpbf.jar
 generated.java
 include/osmpbf/*.pb.h
+include/osmpbf/*.pb-c.h
 src/*.pb.h
 src/*.pb.o
 src/libosmpbf.a
